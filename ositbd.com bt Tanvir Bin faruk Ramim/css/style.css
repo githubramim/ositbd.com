@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    color: #181d38;
+}
+/* menu section  */
+.navbar{
+    padding: 0 !important;
+}
+.navbar .read_more_btn{
+    margin-top: 10px;
+}
+.navbar .logo{
+    width: 180px;
+    height: 60px;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-right: 20px;
+    padding: 23px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+    color: black;
+    font-weight: 700;
+}
+.nav-link.active, .nav-link:hover{
+    color: #00bfff !important;
+}
+.dropdown-item{
+    white-space: wrap !important;
+}
+
+/* Course Slider  */
+
+.hero_slider{
+    padding: 50px 0;
+    background-color: black;
+}
+.owl-carousel .owl-item img{
+    border: 2px solid whitesmoke;
+}
+.owl-carousel .owl-nav{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 0px;
+}
+.slider_carousel .owl-nav .owl-prev, .slider_carousel .owl-nav .owl-next{
+    margin: 7px 0;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: .5s;
+}
+.slider_carousel .owl-nav .owl-prev{
+    left: -50px;
+}
+.slider_carousel .owl-nav .owl-next{
+    right: -50px;
+}
+.slider_carousel .owl-nav .owl-prev:hover, .slider_carousel .owl-nav .owl-next:hover{
+    background: #808080;
+    border-color: #808080;
+}
+
+/* service section  */
+.service-item{
+    background-color: #f0fbfc;
+    border-radius: 10px;
+    transition: .5s;
+    color: black;
+}
+.service-item:hover{
+    margin-top: -10px;
+    background-color: #00baf6;
+    color: white;
+}
+.service-item:hover h5{
+    color: white;
+}
+.service-item img{
+    max-width: 80px;
+}
+/* about us section  */
+.about_us_section .section-title::before{
+    left: 0 !important;
+}
+.about_us_section .section-title::after{
+    left: 0 !important;
+}
+
+/* instructor-section  */
+.team-item{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.team-item img{
+    transition: .5s;
+}
+.team-item:hover img{
+    transform: scale(1.1);
+}
+
+/* testimonial  */
+.owl-item .testimonial_item img{
+    height: 80px;
+    width: 80px;
+}
+
+.owl-item.active .testimonial_item img{
+    height: 200px;
+    width: 200px;
+}
+
+.owl-item.active .testimonial_item{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.testimonial_slider .owl-item.center .description{
+    background-color: #00bfff;
+}
+.testimonial_slider .owl-item.center .description p{
+    color: white;
+}
+.testimonial_slider .owl-dots{
+    margin-top: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.testimonial_slider .owl-dot{
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #cccccc;
+    transition: .5s;
+}
+.testimonial_slider .owl-dot.active{
+    background: #00bfff;
+    border-color: #00baf6;
+}
+
+/* footer section  */
+footer{
+    background-color: #181d38;
+}
+footer .social_btn{
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    transition: .3s;
+}
+footer .social_btn:hover{
+    color: #009acd;
+}
+footer .btn-link{
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: .3s;
+    text-decoration: none;
+}
+footer .btn-link:hover{
+    letter-spacing: 1px;
+    box-shadow: none;
+    color: wheat;
+}
+footer iframe{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+footer .col-lg-12{
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}

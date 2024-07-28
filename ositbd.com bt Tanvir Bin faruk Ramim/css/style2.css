@@ -1,0 +1,82 @@
+#john, #sir{
+    color: red;
+    font-size: 80px;
+}
+
+.class_name{
+
+}
+#id_name{
+
+}
+
+/* robi vai image design start */
+.robi, #john, strong{
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: blue;
+    margin: 0px;
+    }
+/* robi vai image design end */
+
+/* 
+.full_name{
+    background-color: yellow;
+    padding: 50px;
+} */
+.bg_image_div{
+    padding: 50px;
+    border: 1px solid blue;
+    background-image: url('https://www.ositbd.com/adminAssets/upload/1701774287420.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.text_style{
+    padding: 20px;
+    border: 1px solid grey;
+    text-align: right;
+    height: 100px;
+    width: 200px;
+    overflow-y: scroll;
+}
+.rectangle{
+    height: 150px;
+    width: 300px;
+    background-color: green;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+.round{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    z-index: 2;
+}
+.round2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: blue;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    z-index: 1;
+}
